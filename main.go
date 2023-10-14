@@ -7,5 +7,5 @@ import (
 )
 
 func main() {
-	fmt.Println(strings.ToLower(strings.Join(os.Args[1:], "_")))
+	fmt.Print(strings.ToLower(strings.Join(os.Args[1:], "_")))
 }
